@@ -1,0 +1,284 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* body{
+    background-color: #fffaf7;
+} */
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    /* background-color:#fffaf7; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.navbar ul li a:hover {
+    color: #f0c040;
+}
+
+.navbar ul li a.active {
+    color: #f0c040;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    background-color: #fffaf7;
+    margin-top: 10px;
+    /* background-color: rgb(242, 237, 230); */
+}
+
+.txt-head {
+    width: 96%;
+    height: 75px;
+    background-color: #fffaf7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.txt-head p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    width: 1198px;
+    padding-top: 10px;
+
+}
+
+.forminfo {
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    /* background-color: brown; */
+}
+
+.forminfo .pic {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.forminfo .pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.forminfo .forminput {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: white;
+    /* margin-top: 10px; */
+    /* margin-right: 10px; */
+}
+
+.forminfo .forminput .text {
+    width: 100%;
+    height: 60px;
+    /* background-color: #f0c040; */
+    /* padding: 10px; */
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.forminfo .forminput form {
+    width: 100%;
+    height: 380px;
+    /* background-color: #f0c040; */
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.forminfo .forminput form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: black;
+
+}
+
+.forminfo .forminput form input {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.forminfo .forminput form textarea {
+    width: 100%;
+    height: 90px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.forminfo .forminput form button {
+    width: 100%;
+    height: 30px;
+    background-color: #211d11;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.contact-info {
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.map {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.empty {
+    width: 100%;
+    height: 80px;
+    background-color: #fffaf7;
+}
+
+.footer {
+    background-color: #f5eee7;
+    color: #5c4432;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 60px;
+    flex-wrap: wrap;
+    /* margin-top:0px; */
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+    flex: 1;
+    min-width: 250px;
+}
+
+.follow-title {
+    /* height: 60px; */
+    display: flex;
+    align-items: center;
+}
+
+.follow-title h3 {
+    font-size: 20px;
+    color: #221b17;
+    margin-bottom: 12px;
+
+}
+
+.footer-left ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-left li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-left i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #5c4432;
+}
+
+.footer-center {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-center h3 {
+    font-size: 20px;
+    color: #221b17;
+    margin-bottom: 12px;
+}
+
+.footer-center ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-center li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* margin: 20px 0; */
+}
+
+.footer-center i {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #5c4432;
+}
+
+.footer-right {
+    text-align: right;
+    margin-top: 30px;
+}
+
+.footer-right p {
+    font-size: 18px;
+    margin: 5px 0;
+}

@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav[role="navigation"]{
+    width: 100%;
+    padding: 16px 0;
+
+    div:nth-child(2){
+        @apply sm:contents;
+        justify-content: space-between;
+
+    }
+
+    span[aria-current="page"]{
+        .relative {
+            @apply bg-blue-400 text-white
+        }
+    }
+}
